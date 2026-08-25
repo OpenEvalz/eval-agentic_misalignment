@@ -1,0 +1,39 @@
+{
+  "openevalz_version": 1,
+  "eval": {
+    "id": "agentic_misalignment",
+    "slug": "agentic-misalignment",
+    "title": "Agentic Misalignment: How LLMs could be insider threats",
+    "group": "Scheming",
+    "tags": [],
+    "source": "core"
+  },
+  "upstream": {
+    "repo": "https://github.com/UKGovernmentBEIS/inspect_evals",
+    "path": "src/inspect_evals/agentic_misalignment",
+    "inspect_ai": "0.3.260",
+    "eval_version": "4-A",
+    "dependency": "agentic_misalignment"
+  },
+  "execution": {
+    "class": "plain",
+    "cost_class": "low",
+    "sandbox": null,
+    "requires_internet": false,
+    "fast": false,
+    "supports_k8s": false,
+    "environment": ""
+  },
+  "tasks": [
+    {
+      "name": "agentic_misalignment",
+      "samples": 1
+    }
+  ],
+  "total_samples": 1,
+  "external_assets": [],
+  "scaffolds": [
+    "baseline"
+  ],
+  "generated": "2026-08-25"
+}
